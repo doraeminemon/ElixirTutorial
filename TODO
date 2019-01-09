@@ -1,0 +1,6 @@
+
+Todo:
+  ☐ Write actuall shell script to install elixir
+    ☐ docker.sh
+    ☐ local.sh
+    ☐ setup.sh
