@@ -3,5 +3,5 @@ if [ ! -d "$HOME/bin/docker" ]; then
   printf "You need docker to run this script"
 fi
 
-docker build -t playground/alpine-elixir .
-docker run playground/alpine-elixir
+docker load < alpine-elixir.tar
+docker images | grep alpine-elixir

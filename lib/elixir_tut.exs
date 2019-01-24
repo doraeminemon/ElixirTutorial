@@ -56,6 +56,8 @@ a # ?
 c # ?
 %{ a: a, d: d } = map
 d # ?
+%{ a: "d", b: "c" | map }
+%{ a: "d", c: "d" | map }
 Map.merge, Map.update!, Map.get_and_update, Map.size, Map.fetch!, Map.split, Map.to_list
 ## Tuple and pattern matching
 { x, y } = { 1, 2}
